@@ -1,0 +1,26 @@
+# Secrets and keys (never commit these)
+.env
+.env.*
+*.key
+*.pem
+secrets/
+credentials*.json
+api-keys*.txt
+notes-private/
+
+# Screen recordings (large files; host the video on YouTube/X/LinkedIn and link it in the README instead)
+*.mp4
+*.mov
+*.mkv
+*.webm
+
+# OS and editor files
+.DS_Store
+Thumbs.db
+desktop.ini
+.vscode/
+.idea/
+
+# Temporary files
+*.tmp
+*.bak
