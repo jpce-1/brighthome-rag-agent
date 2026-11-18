@@ -6,11 +6,11 @@ It answers questions about a fictional company, **BrightHome Store** (an online 
 
 > **Think of RAG as an open-book exam for AI.** Instead of answering from memory, the agent first looks up the relevant notes in your documents, then answers using them.
 
-Write-up: _[https://medium.com/@jpchie7/i-built-an-ai-that-answers-from-your-own-documents-and-the-first-thing-that-broke-was-not-the-ai-bf2b5e3062d8]_
+Write-up: [Read the article on Medium](https://medium.com/@jpchie7/i-built-an-ai-that-answers-from-your-own-documents-and-the-first-thing-that-broke-was-not-the-ai-bf2b5e3062d8)
 
 ## Demo video
 
-Watch the demo on X(https://x.com/Johnpaul_JPCE/status/2123155306591277452?a=V6AGngL09vjaZAXNVSg&s=20)
+[Watch the demo on X](https://x.com/Johnpaul_JPCE/status/2123155306591277452)
 
 ---
 
@@ -58,7 +58,7 @@ rag-agent/
 
 1. **Create the documents.** Make a Google Drive folder named `RAG-Class` and add the 5 documents from `docs/` as Google Docs.
 2. **Get a Gemini API key** from Google AI Studio.
-3. **Choose the embedding model first.** Use `gemini-embedding-001(this is the one i used)`, which produces 3072-number embeddings. Your Pinecone index must match this exactly.
+Use `gemini-embedding-001` (the one I used), which produces 3072-number embeddings.
 4. **Create the Pinecone index** (see the next section).
 5. **Import the workflow.** In n8n: new workflow, then the three-dot menu, then Import from file, and pick `workflow/rag-agent.json`.
 6. **Reconnect credentials.** n8n does not export secrets, so re-add Gemini, Pinecone and Google Drive credentials and select them in each node.
